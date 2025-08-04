@@ -14,6 +14,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/RouteInfo.msg"
   "msg/RouteConnection.msg"
   "msg/MapProperty.msg"
+  "srv/NavToTopologyPoint.srv"
   DEPENDENCIES
 )
 
